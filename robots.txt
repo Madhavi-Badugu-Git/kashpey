@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://k-seva.com/sitemap.xml

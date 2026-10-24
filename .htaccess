@@ -1,0 +1,11 @@
+RewriteEngine On
+
+# Force .php in URL (hard redirect)
+RewriteCond %{REQUEST_URI} !\.php$
+RewriteCond %{DOCUMENT_ROOT}/$1.php -f
+RewriteRule ^(.+)$ https://%{HTTP_HOST}/$1.php [R=301,L]
+
+# Allow direct access to .php files
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)\.php$ $1.php [L]

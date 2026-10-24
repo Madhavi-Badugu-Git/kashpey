@@ -1,0 +1,306 @@
+
+    /* Create two equal columns that floats next to each other */
+    .column {
+        float: left;
+        width: 40%;
+        padding: 10px;
+        height: auto;
+    }
+
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+        .column {
+            width: 100%;
+        }
+    }
+
+    tr td {
+        padding: 10px 10px 10px 10px;
+    }
+
+
+    td,
+    th {
+        border: 1px solid black;
+        text-align: center;
+        width: 0%;
+    }
+
+
+    /*service setction*/
+
+    #home .foot {
+        margin: 0;
+    }
+
+    .foot {
+        /* padding: 20px 0 0 0; */
+        /* background: #f9f9f9; */
+        color: #6d7278;
+        font-size: 14px;
+        /* border-top: 1px solid #ebebeb; */
+        transition: all 0.5s ease;
+        /* padding-bottom: 15px; */
+    }
+
+    .moneyMatter.green .cntb h2 {
+        font-weight: 600;
+        padding-bottom: 0px;
+    }
+
+    .moneyMatter.green .cntb p {
+        padding-bottom: 5px;
+    }
+
+    .foot {
+        display: block;
+    }
+
+    .foot .col {
+        display: table-cell;
+        padding-right: 30px;
+        max-width: 164px;
+    }
+
+    .foot p.ttl {
+        color: #fff;
+        padding-bottom: 8px;
+        font-weight: 700;
+    }
+
+    .foot p {
+        line-height: 24px;
+        padding-bottom: 9px;
+        font-size: 16px;
+    }
+
+    .foot p a {
+        color: #000000;
+        font-weight: 500;
+
+    }
+
+    .foot p a:hover {
+        color: #904598;
+
+    }
+
+
+    @media (max-width: 767px) {
+        .foot .col {
+            display: block !important;
+            padding-right: 0;
+            max-width: 100%;
+            margin-bottom: 20px;
+        }
+    }
+
+
+    img {
+        pointer-events: none;
+    }
+
+    .moneyMatter {
+        margin: 52px 0 30px;
+    }
+
+    /*service out section*/
+
+    /*.services-pg-section .service-grids .grid, .services-section-s2 .service-grids .grid, .services-section-s3 .service-grids .grid {
+        width: calc(25% - 30px);
+        float: left;
+        margin: 0 15px 40px;
+        overflow: hidden;
+    }*/
+
+
+    /*mobile view*/
+    @media (max-width: 767px) {
+        .moneyMatter {
+            /*  margin: 20px 0;*/
+            text-align: LEFT;
+        }
+    }
+
+    /*end mobile view*/
+
+
+    /*BOX_SLIDER*/
+
+    .video-sect .container {
+        border-top: none;
+        padding-top: 10px;
+    }
+
+
+    /*margin*/
+
+    .moneyMatter {
+        margin: 18px 0 30px;
+    }
+
+    /*pading on slide*/
+
+    .video-sect {
+        width: 100%;
+        display: inline-block;
+        padding: 0px 0 18px;
+    }
+
+
+
+    /*extra box*/
+
+    .services-pg-section .service-grids .grid {
+        margin: 0 15px 25px;
+    }
+
+    /*extra box*/
+
+    .columnss {
+        float: left;
+        width: 30%;
+        padding: 8px;
+    }
+
+    .pricee {
+        list-style-type: none;
+        border: 1px solid #eee;
+        margin: 0;
+        padding: 0;
+        -webkit-transition: 0.3s;
+        transition: 0.3s;
+    }
+
+    .pricee:hover {
+        box-shadow: 0 8px 12px 0 #ffbc01;
+    }
+
+    .pricee .headerr {
+        background-color: #ffbc01;
+        color: black;
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .pricee li {
+        border-bottom: 1px solid #eee;
+        padding: 20px;
+        text-align: center;
+        list-style-type: none !important;
+    }
+
+    .entry-content ul {
+        padding: 0 0 0 0px;
+
+    }
+
+    .only-text-layout ul {
+        padding-left: 0px;
+    }
+
+
+    .pricee .greyy {
+        background-color: #eee;
+        font-size: 20px;
+    }
+
+    .buttonn {
+        background-color: #04AA6D;
+        border: none;
+        color: white;
+        padding: 10px 25px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .columnss {
+            width: 100%;
+        }
+
+        .img_hide_mobile {
+            display: none;
+        }
+    }
+
+
+
+
+
+    /* Create two equal columns that floats next to each other */
+    .column_box {
+        float: left;
+        width: 58%;
+        padding: 10px;
+        /* Should be removed. Only for demonstration */
+    }
+
+    .column_box_2 {
+        float: left;
+        width: 38%;
+        padding: 10px;
+        /* Should be removed. Only for demonstration */
+    }
+
+    /* Clear floats after the columns */
+    .row_box:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .buttons_Filing {
+        background-color: #3d9ff2;
+        padding: 15px 55px 15px 55px !important;
+        border-radius: 26px;
+        font-size: 22px;
+        color: white;
+    }
+
+    .buttons_Filing:hover {
+        background-color: #0a71c9;
+        color: white;
+    }
+
+    .buttons_Track {
+        background-color: #4CAF50;
+        padding: 15px 55px 15px 55px !important;
+        border-radius: 26px;
+        font-size: 22px;
+        color: white;
+    }
+
+    .buttons_Track:hover {
+        background-color: #2e8731;
+        color: white;
+    }
+
+    .pointer {
+        cursor: pointer;
+    }
+
+    .column_box_new {
+        float: left;
+        width: 100%;
+        padding: 10px;
+        /* Should be removed. Only for demonstration */
+    }
+
+
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+        .column_box {
+            width: 100%;
+        }
+
+        .column_box_2 {
+            width: 100% !important;
+        }
+
+        .padding_art {
+            padding-left: 0px !important;
+
+        }
+    }

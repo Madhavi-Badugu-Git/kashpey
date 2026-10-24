@@ -1,0 +1,1096 @@
+@media (max-width:1365px){
+
+}
+@media (max-width:1199px){
+	.solutions .bx {
+	    width: 285px;
+	    border-top-right-radius: 40px;
+	    margin-right: 15px;
+	}
+	.solutions {
+    text-align: center;
+}
+.solutions .bx p {
+    padding: 0 15px 10px 0;
+		text-align: left;
+}
+	
+/*services css*/
+.card-row .card-d{ margin-bottom: 22px;}
+	
+/*** 26-2-2020 ***/
+	.awsm-job-container{padding: 30px 0 !important;}
+	.awsm-row{margin: 0 !important;}
+	.page-title, .entry-title, .awsm-job-single-wrap{padding: 0 10px;}
+	.awsm-job-form-inner{padding: 0 !important;}
+	
+
+}
+
+@media (max-width:1160px){
+
+}
+@media (max-width:1159px){
+	.standingatm {
+    right: 0;
+}
+.container {
+    max-width: 100%;
+    padding-left: 15px;/*shiv*/
+    padding-right: 15px;/*shiv*/
+    box-sizing: border-box;
+}
+.atmoperator li {
+    padding-right: 50px;
+}
+.atmoperator li:after {
+    right: 23px;
+}
+
+
+/*SHIVANI BANKS PAGE*/
+	#whyIndi .case-study{top: 40px; padding: 15px;}
+	#whyIndi .case-study .txt-lrg{font-size: 20px; margin: 10px 0;}
+	#whyIndi .case-study p{font-size: 14px;}
+/*END SHIVANI BANKS PAGE*/
+
+
+}
+
+
+@media (max-width:1023px){
+	body > .over-menu {-webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; position: fixed; height: 100%; content: ''; width: 100%; left: 0; top: 0; visibility: hidden; opacity: 0; background: rgba(0, 0, 0, 0.6); z-index: 999;}
+	body.open-menu {left: -250px; }
+	body.open-menu > .over-menu {visibility: visible; opacity: 1;}
+	body.open-menu .menu-container {left: 0 !important;}
+	.hidden-lg{display: block;}
+  .hidden-md {display: none;}
+  header .desk-menu .logo{padding: 18px 0 0 10px;}
+  header .desk-menu .box-menu{top: 25px; float: none;}
+  header .hamburger-menu {-webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; -ms-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; display: block; position: absolute; top: -15px; bottom: 0; margin: auto; width: 40px; height: 12px; cursor: pointer; right: 10px; z-index: 0;}
+  header .hamburger-menu span {text-transform: uppercase; left: calc(-100% + -5px); padding: 8px 9px 8px 0; top: calc(50% - 18px); position: absolute; font-size: 13px; color: #FFF;}
+  header .hamburger-menu .bar, header .hamburger-menu .bar::after, header .hamburger-menu .bar::before {width: 35px; height: 3px;}
+  header .hamburger-menu .bar {position: relative; -webkit-transform: translateY(25px); -moz-transform: translateY(25px); -ms-transform: translateY(25px); -o-transform: translateY(25px); transform: translateY(25px); -webkit-transition: all 0.1s ease; -moz-transition: all 0.1s ease; -ms-transition: all 0.1s ease; -o-transition: all 0.1s ease; transition: all 0.1s ease; background: #fff; top: -10px; }
+  header .hamburger-menu .bar::before, header .hamburger-menu .bar::after { position: absolute; background: #fff; content: ''; left: 0; border-radius: 5px; }
+  header .hamburger-menu .bar::before {bottom: 10px; -webkit-transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1); -moz-transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1); -ms-transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1); -o-transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1); transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1); }
+  header .hamburger-menu .bar::after {top: 10px; -webkit-transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1); -moz-transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1); -ms-transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1); -o-transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1); transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);}
+  header .hamburger-menu .bar.animate {background: rgba(255, 255, 255, 0);}
+  header .hamburger-menu .bar.animate::after {top: 0; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); -webkit-transition: top 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1); -moz-transition: top 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1); -ms-transition: top 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1); -o-transition: top 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1); transition: top 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1); }
+  header .hamburger-menu .bar.animate::before {bottom: 0; -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); -webkit-transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1); -moz-transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1); -ms-transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1); -o-transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1); transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);}
+  header .desk-menu .box-menu ul li a {color: #FFF !important; border-bottom: 1px solid #eaeaea;}
+  header .desk-menu .menu-container { -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; background: #000; position: fixed; height: 100%; width: 250px; left: -250px; top: 0; z-index: 999;}
+  header .desk-menu .menu-container .menu-header-container {position: relative; float: left;}
+  header .desk-menu .menu-container .menu-header-container ul {padding: 0 !important;}
+  header .desk-menu .menu-container .menu {margin: 0;}
+  header .desk-menu .menu-container .menu li.back {position: relative; display: block;}
+  header .desk-menu .menu-container .menu li.back a {padding: 12px 12px 12px 35px !important;}
+  header .desk-menu .menu-container .menu li.back a::before, header .desk-menu .menu-container .menu li.back a::after {background-color: #4e4e4e; position: absolute; content: ''; height: 2px; width: 7px; top: 23px;}
+  header .desk-menu .menu-container .menu li.back a::before {-webkit-transform: rotate(-45deg) !important; -moz-transform: rotate(-45deg) !important; -ms-transform: rotate(-45deg) !important; -o-transform: rotate(-45deg) !important; transform: rotate(-45deg) !important; top: 20px !important; right: inherit !important; left: 15px !important;}
+  header .desk-menu .menu-container .menu li.back a::after {-webkit-transform: rotate(45deg) !important; -moz-transform: rotate(45deg) !important; -ms-transform: rotate(45deg) !important; -o-transform: rotate(45deg) !important; transform: rotate(45deg) !important; top: 24px !important; left: 15px !important; }
+  header .desk-menu .menu-container .menu li.line {display: none !important; }
+  header .desk-menu .menu-container .menu > li {width: 100%; float: left; margin: 0;text-align: left; }
+  header .desk-menu .menu-container .menu > li a {font-family: 'Segoe UI', sans-serif; padding: 12px; color: white !important;}
+  header .desk-menu .menu-container .menu > li.menu-item-has-children {position: initial;}
+  header .desk-menu .menu-container .menu > li.menu-item-has-children a {padding: 12px;}
+  header .desk-menu .menu-container .menu > li.menu-item-has-children a::before, header .desk-menu .menu-container .menu > li.menu-item-has-children a::after {}
+  header .desk-menu .menu-container .menu > li.menu-item-has-children a::before {right: 6px !important; top: 16px !important; width: 7px !important;}
+  header .desk-menu .menu-container .menu > li.menu-item-has-children a::after {top: 20px !important;}
+  header .desk-menu .menu-container .menu > li.menu-item-has-children .sub-menu {box-shadow: none; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; display: block !important; background: #FFF; z-index: 1; top: 0; left: 100%; height: 100%;}
+  header .desk-menu .menu-container .menu > li.menu-item-has-children .sub-menu .sub-menu {margin-top: 0;}
+  header .desk-menu .menu-container .menu > li.menu-item-has-children .sub-menu.open-sub {left: 0%;}
+  header .desk-menu .menu-container .menu > li.menu-item-has-children .sub-menu li.menu-item-has-children > a::after {-webkit-transform: rotate(-45deg) !important; -moz-transform: rotate(-45deg) !important; -ms-transform: rotate(-45deg) !important; -o-transform: rotate(-45deg) !important; transform: rotate(-45deg) !important; right: 6px !important; top: 26px !important; width: 7px !important; }
+  header .desk-menu .menu-container .menu > li:hover a::after {top: 26px;}
+  header .desk-menu .menu-container .menu-head {display: block;}
+  header .desk-menu .menu-container .menu-foot {display: block;}
+  /* header.small .hamburger-menu {top: 31px;} */
+  /* header.small .hamburger-menu span {color: #4e4e4e;} */
+  /* header.small .hamburger-menu .bar {background: #4e4e4e;} */
+  /* header.small .hamburger-menu .bar::before, header.small .hamburger-menu .bar::after {background: #4e4e4e;} */
+  header.small .hamburger-menu .bar.animate {background: rgba(255, 255, 255, 0);}
+  header .call{padding-right: 75px;}
+	.menu li::after{display: none;}
+	header .call a {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+header .desk-menu .menu-container .menu > li {
+		margin: 0 20px 0 0;
+}
+header .desk-menu .menu-container .menu > li:after {
+		right: -10px;
+}
+
+header .call {
+    float: left;
+}
+.solutions .bx {
+    width: 215px;
+}
+.rowbtm {
+    left: 10px;
+}
+.solutions {
+    padding: 0 0 50px;
+}
+.about-sec .cntbx {
+	width: 60%;
+	padding-right: 20px;
+}
+ .about-sec .imgBx img{
+  width: 250px;
+}
+
+/*shivani 27-2-2020*/
+.hidden-md{display: none !important;}
+/*END shivani 27-2-2020*/
+
+/*SHIVANI BANKS PAGE*/
+	.yourBrand .internal{width: 50%;}
+	.yourBrand .external{width: 37%; float: right;}
+	.yourBrand .internal img, .yourBrand .external img{width: 100%;}
+/*END SHIVANI BANKS PAGE*/
+
+/*services css*/
+.card-row {width: auto;display: table; margin-top: 8px;margin: 0 auto;text-align: center;}	
+.cash-sect .heading { text-align: center;}	
+.card-row .card-d:nth-child(3) { margin-right: 0;}
+
+/*13-3-2020*/
+	.video-sect{padding: 0;}
+	.video-sect .video-row article img{min-height: 100%;}
+
+
+}
+
+/*20-03-2020*/
+@media (max-width:1000px){
+  .video-row.bg1 .titleSec:before, .video-row.bg2 .titleSec:before, .video-row.bg2 .titleSec:after,  .video-row.bg3 .titleSec:before, .video-row.bg3 .titleSec:after{ display: none;}
+}/*END 20-03-2020*/
+
+
+
+@media (max-width:980px){
+	 .atmcnt {
+    display:none;
+}
+
+.atmopcnt {
+      display: block;
+			text-align: center;
+}
+.atmoperator li:last-child {
+    padding-right: 0;
+}
+.atmoperator li {
+    padding-right: 40px;
+}
+.atmoperator li:after {
+    right: 20px;
+}
+.atmoperator ul p {text-align: left;}
+.solutions {
+    padding:0 0 20px;
+}
+
+.solutions .bx {
+    width: 275px;
+    border-top-right-radius: 38px;
+    min-height: 145px;
+    padding: 30px 0 0 10px;
+    padding-bottom: 57px;
+    margin: 0 auto 20px auto;
+		display:block;;
+}
+.solutions .bx p {
+    padding: 0 0 10px 0;
+}
+.rowbtm {
+    width: 260px;
+}
+.solutions .bx:last-child {
+      margin: 0 auto;
+}
+.heading {
+    font-size: 24px;
+}
+.moneyMatter .cntb0 p br{display: none;
+}
+.moneyMatter .imgb img{
+    width:100%;
+}
+.listorg li {
+    padding: 0 0 0 30px;
+	margin-bottom: 10px;
+	text-align: left;
+}
+.listorg li::after {
+    left: 3px;
+	top: 8px;
+}
+.moneyMatter .cntb0 h3 {
+	text-align: left;
+}
+
+/*SHIVANI BANKS PAGE*/
+	#whyIndi .case-study{top: 0; padding: 15px;}
+	#whyIndi .case-study .txt-lrg{font-size: 20px; margin: 10px 0;}
+	#whyIndi .case-study p{font-size: 14px;}
+	.well{top: 10px;}
+	.well .cont-sect{padding: 10px 0;}
+	.well .cont-sect .heading{padding-bottom: 15px;}
+	.well .cont-sect .cont-row article{padding-right: 25px; margin-bottom: 15px;}
+	.well .cont-sect .cont-row article:last-child{padding-left: 25px; padding-right: 0; margin: 0;padding-bottom: 1px;}
+/*END SHIVANI BANKS PAGE*/
+
+/*SHIVANI CONSUMER PAGE*/
+	.requisiteAll .requisiteIndi{padding: 0 20px;}
+	.requisiteAll .requisiteIndi:last-child{padding: 0 0 0 20px;}
+/*END SHIVANI CONSUMER PAGE*/
+	
+/*contact us*/
+.map-box iframe{width: 100%;}
+	
+/*services css*/
+.card-row {width: auto;display: table; margin-top: 8px;margin: 0 auto;text-align: center;}	
+.cash-sect .heading { text-align: center;}
+
+
+/*13-3-2020*/
+	.video-sect .video-row .itemLogo .imgSec img{width: 100%;}
+	.video-sect .video-row .itemLogo .textSec, .video-sect.banks .video-row .itemLogo .textSec{padding: 20px 30px;}/*20-03-2020*/
+	.video-sect .video-row .itemLogo .textSec p {font-size: 15px; line-height: 22px;}
+	.video-sect .video-row .itemLogo .txt-lrg{font-size: 25px !important; line-height: 25px !important; margin-bottom: 5px;}/*20-03-2020*/
+	.video-row.bg1 .titleSec:before, .video-row.bg2 .titleSec:before, .video-row.bg2 .titleSec:after, .video-row.bg3 .titleSec:before, .video-row.bg3 .titleSec:after{width: 15%;}
+/*END 13-3-2020*/
+  
+/*20-03-2020*/
+.bg1 .titleSec .title,.bg2 .titleSec .title, .bg3 .titleSec .title, .bg4 .titleSec .title {font-size: 30px; min-height: auto;}
+.bg1 .titleSec .sub-title, .bg2 .titleSec .sub-title, .bg3 .titleSec .sub-title, .bg4 .titleSec .sub-title {font-size: 18px;}
+/*END 20-03-2020*/
+    
+    /*RESOURCES 24-4-2020*/
+.filterDiv{margin: 2px 28px 40px 2px;}
+.filterDiv .org-btn{min-width: 125px;}
+/*END RESOURCES 24-4-2020*/
+    
+    /*NEW BANNER POPUP 8-9-2020*/
+#newBanner.well{max-width: 100%; width: 90%;}
+#newBanner.well .popup_close{top: -33px; right: -13px;}
+/*END NEW BANNER POPUP 8-9-2020*/
+    
+    
+}
+
+/* 22-7 */
+@media (max-width:935px){
+.yourBrand .internal, .yourBrand .external{width: 100%; float: none; text-align: center;}
+.explorebg .form.center{float: none; width: 100%;}
+}
+/* 22-7 end*/
+
+@media (max-width:767px){
+	.bannerbg p {
+    font-size: 18px;
+}
+.bannerbg h1 {
+    font-size: 24px;
+}
+.bannerbg {
+    height: 110px !important; /*shiv*/
+}
+.bannerbg .tbl{height: auto;padding: 20px 0}
+.bannerbg .td:first-child {
+    width: 100%;
+	display: block;
+	margin-top: 30px; /*21-2-2020*/
+}
+.bannerbg .td:last-child {display: none;
+}
+.atmoperator h4 {
+    font-size: 24px;text-align: left;
+}
+.atmoperator ul p {
+    text-align: left;
+}
+.atmoperator li {
+    display: block;
+    text-align: left;
+		margin-bottom: 30px;
+}
+.atmoperator li:after {
+    right: auto;
+    background: #ececec;
+    width: 100%;
+    height: 1px;
+    right: auto;
+    left: 0;
+    bottom: -10px;
+}
+.atmoperator ul span{
+	min-width: 55px;
+	display: inline-block;
+}
+.about-sec .cntbx{
+	width: 100%;
+	padding-right: 0;
+	display: block;
+	background-size: cover;
+}
+.about-sec {
+	background: #021b43;
+}
+.about-sec .imgBx { display: none;}
+.moneyMatter {
+    margin: 20px 0;
+		text-align: center;
+}
+.moneyMatter .cntb, .moneyMatter .imgb{display: block;width: 100%}
+.moneyMatter .cntb0 h3 br{display: none;}
+
+.boxshadow {
+    margin: 0 2px 20px 2px;
+}
+.owl-dots {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    margin-left:0;
+    /* width: 100%; */
+    text-align: center;
+    margin: auto;
+}
+footer .col {
+    display: block;
+    padding-right: 0;
+    max-width: 100%;
+		margin-bottom: 20px;
+}
+footer .col:last-child {
+	display: block;
+	padding-right: 0;
+	max-width: 100%;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+.cookies{text-align: center; padding: 5px 0;}
+.cookies .org-btn{padding: 6px 15px;}
+/*shivani 27-2-2020*/
+.hidden-lg, .hidden.md{display: block !important;}
+.hidden-xs{display: none !important;}
+.box-menu .tata-logo img{width: 80%; margin-top: 40px;}
+header .hamburger-menu {-webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; -ms-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; display: block; position: absolute; top: -155px; bottom: 0; margin: auto; width: 40px; height: 12px; cursor: pointer; right: 10px; z-index: 0;} header .hamburger-menu .bar {position: relative; -webkit-transform: translateY(25px); -moz-transform: translateY(25px); -ms-transform: translateY(25px); -o-transform: translateY(25px); transform: translateY(25px); -webkit-transition: all 0.1s ease; -moz-transition: all 0.1s ease; -ms-transition: all 0.1s ease; -o-transition: all 0.1s ease; transition: all 0.1s ease; background: #005ca9; top: -10px; }
+header .hamburger-menu .bar::before, header .hamburger-menu .bar::after { position: absolute; background: #005ca9; content: ''; left: 0; border-radius: 5px; }
+ul.menu li a img{vertical-align: middle; margin-left: 10px;}
+header .top.sticky{position: fixed; z-index: 66; background: #fff; box-shadow: #dadada 1px 1px 7px; top: 0; left: 0; text-align: center; width: 100%;}
+header .top a{display: inherit;}	
+header .desk-menu.sticky .hamburger-menu{top: 5px;}
+/*END shivani 27-2-2020*/
+
+/*SHIVANI BANKS PAGE*/
+	.white-brb-btn{padding: 8px 30px;}
+	.moneyMatter.plugPlay h2, .moneyMatter.atmadd h2, .moneyMatter.green .cntb h2, .moneyMatter .cntb h2{font-size: 24px;}
+	.moneyMatter.plugPlay p, .moneyMatter.atmadd p, .moneyMatter.green .cntb p, .moneyMatter .cntb p{font-size: 14px;}
+	.moneyMatter .cntb em, .moneyMatter .cntb em.blue.dark{margin-bottom: 20px;}
+	.slider-title span{padding: 5px;}
+	#whyIndi .case-study{top: 30px; padding: 30px;}
+	#whyIndi .case-study .txt-lrg{font-size: 24px; margin: 15px 0;}
+	#whyIndi .case-study p{font-size: 16px;}
+	.explorebg .tbl{display: block; padding: 20px 0;}
+	.explorebg .td{display: block; margin-bottom: 10px; width: 100% !important;}
+	.explorebg p:first-child{font-size: 14px;}
+	.explorebg p{font-size: 11px;}
+	.explorebg p br{display: none;}
+	.explorebg .form.center{float: none; width: 100%;}
+	.explorebg input{width: 100%; padding: 12px 20px; font-size: 14px;}
+	.explorebg button{padding: 7px 50px 7px 30px;}
+	.yourBrand{padding: 30px 15px;}
+	.yourBrand .internal, .yourBrand .external{width: 100%; float: none; text-align: center;}
+	.yourBrand .external, .yourBrand 
+	.yourBrand p {margin-top: 5px;}
+	.yourGrowth{padding: 30px 15px 0;}
+	.why-indi{padding: 30px 0 0;}
+	.sticky-footer .explorebg .tbl{padding: 7px 0 0;}
+	.sticky-footer a.org-btn, .sticky-footer a.blue-btn, .sticky-footer a.green-btn{font-size: 12px; padding: 7px 30px 7px 10px;}
+	.sticky-footer .explorebg .arrow-w:after{right: 6px; top: 9px;}
+	.sticky-footer .explorebg .td:first-child{text-align: center;}
+	.boxshadow .case-study{padding: 15px;}
+	.boxshadow .case-study .more{margin-top: 5px;}
+	.margin-footer{margin-bottom: 90px;}
+/*END SHIVANI BANKS PAGE*/
+
+/*SHIVANI CONSUMER PAGE*/
+	.requisiteAll{padding: 30px 15px;}
+	.requisiteAll .left, .requisiteAll .right{width: 100%; float: none;}
+	.requisiteAll .left{padding: 0;}
+	.requisiteAll .right{text-align: center; margin-top: 20px;}
+	.requisiteAll .right img{float: none;}
+	.requisiteAll .requisiteIndi{padding: 0 30px;}
+	.requisiteAll .requisiteIndi:nth-child(2){padding: 0 30px 0 0;}
+	.requisiteAll .requisiteIndi:last-child{padding: 0 0 0 30px;}
+/*END SHIVANI CONSUMER PAGE*/
+	
+/*SHIVANI CAREERS PAGE*/
+	.careers .openings{padding: 15px; text-align: center;}
+	.careers .openings .info{display: block;}
+	.careers .openings .org-btn{float: none; margin-top: 20px; padding: 7px 35px 9px 20px;}
+	.careers .openings .arrow-w:after{right: 13px; top: 12px;}
+	.careers .openings .arrow-w:hover:after{right: 7px;}
+	#scrolllock.well img{width: 100%;}
+/*END SHIVANI CAREERS PAGE*/
+	
+/*SHIVANI FRANCHIZEE PAGE*/
+	.requisiteAll .requisiteIndi{width: 100% !important; float: none; padding: 0 !important; margin-bottom: 20px;}
+	.requisiteAll .requisiteIndi p{min-height: auto;}
+/*END SHIVANI FRANCHIZEE PAGE*/
+
+/*services css*/
+.itdicash-a article { display: block;}	
+.itdicash-a aside {display: block;vertical-align: top;padding-left: 20px; margin-top: 30px; text-align: center;}
+.explorebg0 .td:first-child {padding-left: 0;text-align: center;}
+.td {display: block;}	
+.explorebg0 .flex-box{ margin: 0 auto;}	
+.explorebg0 .td:last-child {width: auto;}	
+.explorebg0 p:first-child {padding-bottom: 20px;}	
+.sect-card .td{display: table-cell;}
+
+/*contact-us*/
+.cont-sect .cont-row article { width: 98%; display: block;vertical-align: top;padding-right: 0; border-right: none; border-bottom: 1px solid #e0e0e0;padding-bottom: 0px;margin-bottom: 30px;}
+.cont-sect .cont-row article:last-child {width: 100%;border-right: none;padding-right: 0;padding-left: 0;border-bottom: none;}
+.cont-sect .cont-row article .chek2 .lt1 {width: 90%;}	
+	
+/*Auto Popup*/
+	/*#scrolllock.well .popup_close{display: none;}*/
+/*Video Popup*/
+	#closebutton.well{width: 82%;}
+    #scrolllock.well{width: 82%;}
+    #fade.well{width: 82%;}
+    
+	.txtinfo.blue {
+    	margin-top: 120px;
+    }
+.caution-notice {
+    height: 100px;
+    overflow-y: scroll;
+}
+	
+/*** 21-2-20202 ***/
+	.caution-notice{height: 100px; overflow-y: scroll;}
+	.caution-notice .close{margin-top: 10px;}
+
+/*** 26-2-2020 ***/
+	.awsm-row{margin: 0;}
+
+	
+	/*13-3-2020*/
+	.video-sect .video-row .itemLogo .imgSec img{width: 100%;}
+	.video-sect .video-row .itemLogo .textSec, .video-sect.banks .video-row .itemLogo .textSec{padding: 10px 15px;}/*20-03-2020*/
+	.video-sect .video-row .itemLogo .textSec p {font-size: 15px; line-height: 22px;}
+	.video-sect .video-row .itemLogo .txt-lrg{font-size: 25px !important; line-height: 35px !important;}
+	.video-row.bg1 .titleSec:before, .video-row.bg2 .titleSec:before, .video-row.bg2 .titleSec:after, .video-row.bg3 .titleSec:before, .video-row.bg3 .titleSec:after{width: 12%;}
+/*13-3-2020*/
+
+/*18-3-2020*/
+.bannerbg.faq-inner input{width: 100%;}
+.explorebg span img{vertical-align: middle; height: 35px; width: 32px;}
+/*END 18*3-2020*/
+
+/*20-03-2020*/
+.titleSec{ padding: 10px 0 30px;}
+.bg1 .titleSec .title,.bg2 .titleSec .title, .bg3 .titleSec .title, .bg4 .titleSec .title {font-size: 25px; min-height: auto;}
+.bg1 .titleSec .sub-title, .bg2 .titleSec .sub-title, .bg3 .titleSec .sub-title, .bg4 .titleSec .sub-title {font-size: 16px;}
+
+/*END 20-03-2020*/
+    
+/*RESOURCES 24-4-2020*/
+.filterDiv{margin: 2px 28px 40px 2px; width: 47%;}
+.filterDiv:nth-child(3n){margin: 2px 30px 40px 2px;}
+.filterDiv:nth-child(2n){margin: 2px 0 40px 2px;}
+.filterDiv .org-btn{min-width: 125px;}
+/*END RESOURCES 24-4-2020*/
+    
+}
+
+
+@media (max-width:599px){
+	.standingatm {
+    right: 0;
+}
+.logo-header .lg:first-child{
+    padding-right: 58px;
+}
+.logo-header .lg img {
+    border-style: none;
+    width: 80%;
+}
+	
+	
+/*SHIVANI BANKS PAGE*/
+	.explorebg button {padding: 7px 34px 7px 18px;}
+	.explorebg .arrow-w:after{right: 10px; top: 12px;}
+	#whyIndi .case-study{top: auto; padding: 30px; bottom: 30px;}
+	#whyIndi .case-study .txt-lrg{font-size: 24px; margin: 15px 0;}
+	#whyIndi .case-study p{font-size: 16px;}
+/*END SHIVANI BANKS PAGE*/
+
+/*SHIVANI CONSUMER PAGE*/
+	.requisiteAll .requisiteIndi{padding: 0 !important; width: 100%; float: none; margin-bottom: 20px;}
+	.requisiteAll .requisiteIndi:nth-child(2), .requisiteAll .requisiteIndi:last-child{padding: 0;}
+	.requisiteAll .requisiteIndi p{min-height: auto;}
+/*END SHIVANI CONSUMER PAGE*/
+	
+.logo-header .lg img {border-style: none;width: 80%;}
+.card-row .card-d:nth-child(3) {margin-right: 20px;}	
+.card-row .card-d:last-child {margin-right: 20px;}	
+.cont-sect .cont-row article .hlfsec:first-child{margin-bottom: 10px}
+.cont-sect .cont-row article .lft-rgh.cont-box, .cont-sect .cont-row article .hlfsec{width: 100%; float: none;}
+	
+/*PRESS RELEASE*/
+	.press-release .articles .dates, .press-release .articles .pdfs{width: 100%; float: none;}
+	.press-release .articles .dates{margin-bottom: 10px;}
+
+	
+/*** 13-3-2020 ***/
+	.video-row.bg1 .titleSec:before{width: 15%; left: 10px;}
+	.video-row.bg2 .titleSec:before{width: 15%; left: 10px; top: -40px;}
+	.video-row.bg2 .titleSec:after{width: 15%; right: 10px;}
+	.video-row.bg3 .titleSec:before{width: 15%; left: 10px;}
+	.video-row.bg3 .titleSec:after{width: 15%; right: 7px; top: -71px;}
+/*** 13-3-2020 ***/
+
+.bg4 .titleSec .title br{display: none;}
+
+/*RESOURCES 24-4-2020*/
+.resources .heading{padding: 20px 0 0;}
+.filter{margin: 10px 0 30px;}
+.filter p, #myBtnContainer{float: none;}
+.filterDiv{margin: 2px 0 40px 2px; width: 100%; float: none;}
+.filterDiv:nth-child(3n){margin: 2px 0 40px 2px;}
+.filterDiv:nth-child(2n){margin: 2px 0 40px 2px;}
+.filterDiv .org-btn{min-width: 125px;}
+/*END RESOURCES 24-4-2020*/
+    
+ /*contact us page style m */   
+ .frm-m-left {width:100% !important;}
+ .frm-m-right {width:100% !important;}
+  .frm-m-left2 {width:100% !important;}
+ .frm-m-right2 {width:100% !important;}
+ .drp-input-width {width:94% !important;}
+    #region, #city, #atm_feedbktitle {width:98% !important;}
+    #atm_issue {width:96% !important;}
+ /*End contact us page style m */ 	
+}
+
+/* 22-7 */
+@media (max-width:596px){
+.atmbox {
+    margin: 0 auto;
+    background: url(../images/images/mobile-atm-room.jpg) no-repeat top center;
+    min-height: auto;
+    width: 314px;
+    height: 188px;
+}
+.atmbox2 {
+    margin: 0 auto;
+    background: url(../images/images/mobile-atm-external.jpg) no-repeat top center;
+    min-height: auto;
+    width: 315px;
+    height:253px;
+		position: relative;
+}
+.yourBrand p {
+    margin-top: 5px;
+    display: block;
+    margin: 5px auto 20px auto;
+    /* float: none; */
+    width: 100%;
+    text-align: center !important;
+}
+/* .atmbox2 .box7 {
+    width: 140px;
+
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    margin: 0 135px 0 0;
+		position: absolute;
+} */
+/* .atmbox2 .box6 {
+    width: 202px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+		position: absolute;
+} */
+
+.box5 .e {
+    width: 47px;
+    height: 62px;
+    margin: -27px 0 0 61px;
+    transform: perspective(91px) rotateY(-195deg);
+}
+.atmbox .box1 {width: 65px;}
+.atmbox .box1 .a {
+    transform: skewy(8deg);
+    padding-top: 32px;
+    margin: -4px 0px 0 22px;
+    width: 58px;
+    height: 58px;
+}
+.box2 .b {
+    width: 125px;
+    height: 34px;
+    display: inline-block;
+    margin: 17px 0 0 32px;
+}
+.atmbox .box5 {
+    width: 104px;
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+}
+.atmbox .box2 {
+    width: 122px;
+    float: left;
+    height: 50px;
+}
+
+.box4 .d {
+    width: 28px;
+    height: 18px;
+    display: inline-block;
+    margin: 12px 0 0 -31px;
+}
+.atmbox .box3 {
+    width: 58px;
+    float: left;
+    font-size: 16px;
+    color: #fff;
+    text-align: left;
+    padding-top: 30px;
+}
+.box3 .c {
+    width: 33px;
+    height: 12px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 0 0 38px;
+}
+.box6 .f {
+    width: 146px;
+    height: 64px;
+    display: inline-block;
+    margin: 19px 0 0 0px;
+    transform: skewY(-4deg);
+}
+.atmbox2 .box7 {
+    width: 140px;
+    float: right;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    margin: 0 135px 0 0;
+}
+.box7 .g {
+    width: 34px;
+    height: 60px;
+    display: inline-block;
+    margin: 27px 0 0 144px;
+}
+
+
+
+
+
+
+
+}
+/* 22-7 end*/
+
+@media (max-width:480px){
+	.bannerbg h1 {
+	    font-size: 12px;
+		padding-bottom: 0px; /*shiv*/
+	}
+	.bannerbg .tbl {
+    /*height: 140px;*/
+    padding: 0px 0;
+}
+.bannerbg p {
+    font-size: 12px;
+	line-height: 25px; /*shiv*/
+}
+
+.moneyMatter .imgb {
+    text-align: center !important;
+}
+	
+#plugPlay .green-btn {
+    margin: 15px 0 0 0px !important;
+    float: none !important;
+}
+	
+/*SHIVANI BANKS PAGE*/
+	.slider-title span{padding: 0;}
+	.yourBrand .internal img, .yourBrand .external img{width: 100%;}
+	#whyIndi .case-study{top: auto; padding: 15px; bottom: 25px;}
+	#whyIndi .case-study .txt-lrg{font-size: 20px; margin: 10px 0;}
+	#whyIndi .case-study p{font-size: 14px;}
+  /* 22-7 */
+  /* .atmbox .box1{width: 125px;} */
+  /* .box2 .b{margin: 28px 0 0 -70px;} */
+  /* .atmbox .box4{width: 43px;} */
+  /* .box4 .d{margin: 29px 0 0 -52px;} */
+  /* .atmbox .box3{padding-top: 120px;}
+  .box3 .c{margin: 0 0 0 -77px;}
+  .atmbox .box5{padding-top: 0;} */
+		/* 22-7 end*/
+/*END SHIVANI BANKS PAGE*/
+
+/*SHIVANI CAREERS PAGE*/
+	.careers .openings .info p span{display: block;}
+	.careers .openings .info p span:first-child{margin-bottom: 5px;}
+	.careers .openings .info p span:first-child::after{content: " "; margin: 0;}
+/*END SHIVANI CAREERS PAGE*/
+	
+/*services css*/
+.cash-sect {padding: 40px 0 20px;}
+.card-row .card-d { width: 25%!important; padding: 0px 0 5px!important; }
+
+.none{ display: none; }
+
+.card-d img {width: 40%!important; margin-bottom: 0px!important; min-height: 0px!important; }
+
+.card-d span{ font-size: 8px!important; }
+
+.itdicash-a aside{ text-align: center;}
+.explorebg0 .arrow-n{margin: 5px 4px 5px 1px;}	
+.itdicash-a article ul li{ margin-left: 40px;}	
+.explorebg0 .flex-box {width: 90.6%;}
+	
+/*contact-us*/
+.cont-sect article .chek1 .test0 {width: 100% !important;}
+.cont-sect article .chek1 .test0:nth-child(3) {width: 100%;}
+
+/*13-3-2020*/
+	
+	.video-sect .video-row .itemLogo .textSec p {font-size: 14px; line-height: 15px;}
+	.video-sect .video-row .itemLogo .txt-lrg{font-size: 15px !important; line-height: 18px !important; margin-bottom: 5px;}
+/*END 13-3-2020*/
+}
+
+
+/*RESOURCES 24-4-2020*/
+.filtbtn{font-size: 14px; padding: 13px 10px;}
+/*END RESOURCES 24-4-2020*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+@media (max-width: 1200px) {
+	.news {width: 30%;}
+	.about-indi{width: 50%;}
+  .about-indi img{width: 160px;}
+	.news input{min-width: 250px;}
+	.icons ul li{width: 30px; height: 30px; margin: 2px; line-height: 30px}
+
+}
+
+@media only screen and (max-width:1199px){
+	.advrt-count {padding: 40px 25px 18px;}
+	header .desk-menu .logo {padding: 15px 0 0 20px;}
+	.advrt-network .container .atm-network { margin: 0 auto; width: 940px;}
+	.about-bg > div { padding: 45px 40px 45px 45px;}
+	.money-matter .cnt, .money-matter .imgBx {padding-left: 45px;}
+	.money-matter li {width: 40%;}
+	footer .container{width: 90%; padding: 0 5%;max-width: 100%}
+ .about-indi .footer-text {padding: 0 30px;}
+}
+@media only screen and (max-width:1023px){
+	.container{    width: 100%;
+    padding: 0 3%;
+    max-width: 100%;
+    box-sizing: border-box;}
+	.bg-pink .container{width: 100%; padding:0;max-width: 100%}
+	.advrt-network .container .atm-network {width: 94%; padding: 0 3%}
+	.service:before {right: 10px;margin-top: -2px;}
+	.service {width:auto;
+    padding: 11px 26px;
+}
+.service:after {  right: -13px;}
+.atm-network h1 { padding: 20px 0 0;margin: 0}
+.advrt-count {
+    padding: 40px 20px 18px;
+}
+.about-bg {
+    margin: 30px 0;
+}
+.money-matter .cnt, .money-matter .imgBx {
+    display: inline-block;
+    vertical-align: middle;
+}
+.money-matter .heading {
+    margin-top: 25px;
+}
+.money-matter .imgBx { display: none;}
+.ourpartner {
+    margin: 10px 0 20px;
+}
+
+.ourpartner li img {
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 27px;
+}
+.ourpartner li:nth-child(4) img {
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 15px;
+}
+.ourpartner li {
+    display: inline-block;
+		margin-bottom: 20px;
+}
+.money-matter {
+    background: #faf8f9;padding-bottom: 30px;
+}
+.footer-sec {
+    display: block;
+}
+.news, .about-indi{width: 100%; float: none; margin-bottom: 30px;}
+.about-indi .footer-text {
+    padding: 0;
+}
+.about-indi img{width: auto; margin-bottom: 30px;}
+
+.news p, .about-indi p {
+    margin: 10px 0 0;
+}
+}
+@media only screen and (max-width:767px){
+	.bg-pink:after{display: none}
+	.service:after {
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 1px;
+		top: inherit;
+		margin: 0
+}
+
+	.service {
+	    width: auto;
+	    padding: 10px 0;
+	    display: block;
+	    text-align: left;
+	    margin: 0;
+	}
+	.atm-network h1 {
+	    font-size: 16px;
+			padding: 20px 0 0 0
+	}
+	.advrt-count {
+    padding: 20px 0;
+    display: block;
+}
+
+	.advrt-network .container .atm-network {
+    width: 100%;
+		height:auto;
+}
+
+.about-bg {
+    margin:20px 0;
+    padding: 0;
+    background: none;
+}
+.about-bg > div {
+    padding:0 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.about-bg > div p:last-child {
+    text-align:center;
+}
+.about-bg h2 {
+    font-size: 22px;
+    text-align: center;
+		margin-bottom:15px;
+}
+.money-matter .cnt{
+    display: block;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+.money-matter li {
+    width: 100%;
+}
+.knwmorw{text-align: center;}
+.money-matter .heading {
+    font-size: 22px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    margin-top: 0;
+}
+.money-matter {
+    padding-bottom: 0;
+}
+.ourpartner h3 {
+    font-size: 22px;
+    padding: 20px 0 10px;
+}
+.ourpartner ul {
+    display: block;
+		padding: 0;
+}
+.ourpartner li {
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 20px auto;
+
+}
+.ourpartner li:last-child {
+    margin-right: auto;
+}
+	p.title{font-size: 22px;}
+	footer .container {
+	    width: 100%;
+	    padding: 0 5%;
+	    max-width: 100%;
+	}
+	.follow {
+	    text-align: center;
+	    margin-top: 50px;
+			width:100%
+	}
+	footer{padding: 30px 0 0;}
+
+.footer-copy p {
+	    line-height: 15px;
+	    font-size: 10px;
+	}
+
+	header .call a {
+	    padding: 10px 25px;
+	}
+	header .call { margin: 20px 0 0 30px;	}
+
+}
+@media (max-width: 1024px) {
+	.icons ul li{width: 40px; height: 40px; margin: 2px; line-height: 40px}
+	.copy-write .fltl, .copy-write .fltr{float: none;}
+} */
+/*
+@media (max-width: 991px) {
+  .hidden-lg{display: block;}
+  .hidden-md {display: none;}
+  header {height: 75px;}
+  header .desk-menu .logo{padding: 18px 0 0 10px;}
+  header .desk-menu .box-menu{top: 25px; float: none;}
+  header .hamburger-menu {-webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; -ms-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; display: block; position: absolute; top: 0; bottom: 0; margin: auto; width: 40px; height: 12px; cursor: pointer; right: 10px; z-index: 0;}
+  header .hamburger-menu span {text-transform: uppercase; left: calc(-100% + -5px); padding: 8px 9px 8px 0; top: calc(50% - 18px); position: absolute; font-size: 13px; color: #FFF;}
+  header .hamburger-menu .bar, header .hamburger-menu .bar::after, header .hamburger-menu .bar::before {width: 35px; height: 3px;}
+  header .hamburger-menu .bar {position: relative; -webkit-transform: translateY(25px); -moz-transform: translateY(25px); -ms-transform: translateY(25px); -o-transform: translateY(25px); transform: translateY(25px); -webkit-transition: all 0.1s ease; -moz-transition: all 0.1s ease; -ms-transition: all 0.1s ease; -o-transition: all 0.1s ease; transition: all 0.1s ease; background: #4e4e4e; top: -7px; }
+  header .hamburger-menu .bar::before, header .hamburger-menu .bar::after { position: absolute; background: #4e4e4e; content: ''; left: 0; border-radius: 5px; }
+  header .hamburger-menu .bar::before {bottom: 10px; -webkit-transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1); -moz-transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1); -ms-transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1); -o-transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1); transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1); }
+  header .hamburger-menu .bar::after {top: 10px; -webkit-transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1); -moz-transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1); -ms-transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1); -o-transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1); transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);}
+  header .hamburger-menu .bar.animate {background: rgba(255, 255, 255, 0);}
+  header .hamburger-menu .bar.animate::after {top: 0; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); -webkit-transition: top 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1); -moz-transition: top 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1); -ms-transition: top 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1); -o-transition: top 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1); transition: top 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1); }
+  header .hamburger-menu .bar.animate::before {bottom: 0; -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); -webkit-transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1); -moz-transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1); -ms-transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1); -o-transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1); transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);}
+  header .desk-menu .box-menu ul li a {color: #FFF !important; border-bottom: 1px solid #eaeaea;}
+  header .desk-menu .menu-container { -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; background: #FFF; position: fixed; height: 100%; width: 250px; right: -250px; top: 0; z-index: 99;}
+  header .desk-menu .menu-container .menu-header-container {position: relative; float: left;}
+  header .desk-menu .menu-container .menu-header-container ul {padding: 0 !important;}
+  header .desk-menu .menu-container .menu {margin: 0;}
+  header .desk-menu .menu-container .menu li.back {position: relative; display: block;}
+  header .desk-menu .menu-container .menu li.back a {padding: 12px 12px 12px 35px !important;}
+  header .desk-menu .menu-container .menu li.back a::before, header .desk-menu .menu-container .menu li.back a::after {background-color: #4e4e4e; position: absolute; content: ''; height: 2px; width: 7px; top: 23px;}
+  header .desk-menu .menu-container .menu li.back a::before {-webkit-transform: rotate(-45deg) !important; -moz-transform: rotate(-45deg) !important; -ms-transform: rotate(-45deg) !important; -o-transform: rotate(-45deg) !important; transform: rotate(-45deg) !important; top: 20px !important; right: inherit !important; left: 15px !important;}
+  header .desk-menu .menu-container .menu li.back a::after {-webkit-transform: rotate(45deg) !important; -moz-transform: rotate(45deg) !important; -ms-transform: rotate(45deg) !important; -o-transform: rotate(45deg) !important; transform: rotate(45deg) !important; top: 24px !important; left: 15px !important; }
+  header .desk-menu .menu-container .menu li.line {display: none !important; }
+  header .desk-menu .menu-container .menu > li {width: 100%; float: left; margin: 0;text-align: left; }
+  header .desk-menu .menu-container .menu > li a {font-family: 'Segoe UI', sans-serif; padding: 12px; color: #4e4e4e !important;}
+  header .desk-menu .menu-container .menu > li.menu-item-has-children {position: initial;}
+  header .desk-menu .menu-container .menu > li.menu-item-has-children a {padding: 12px;}
+  header .desk-menu .menu-container .menu > li.menu-item-has-children a::before, header .desk-menu .menu-container .menu > li.menu-item-has-children a::after {}
+  header .desk-menu .menu-container .menu > li.menu-item-has-children a::before {right: 6px !important; top: 16px !important; width: 7px !important;}
+  header .desk-menu .menu-container .menu > li.menu-item-has-children a::after {top: 20px !important;}
+  header .desk-menu .menu-container .menu > li.menu-item-has-children .sub-menu {box-shadow: none; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; display: block !important; background: #FFF; z-index: 1; top: 0; left: 100%; height: 100%;}
+  header .desk-menu .menu-container .menu > li.menu-item-has-children .sub-menu .sub-menu {margin-top: 0;}
+  header .desk-menu .menu-container .menu > li.menu-item-has-children .sub-menu.open-sub {left: 0%;}
+  header .desk-menu .menu-container .menu > li.menu-item-has-children .sub-menu li.menu-item-has-children > a::after {-webkit-transform: rotate(-45deg) !important; -moz-transform: rotate(-45deg) !important; -ms-transform: rotate(-45deg) !important; -o-transform: rotate(-45deg) !important; transform: rotate(-45deg) !important; right: 6px !important; top: 26px !important; width: 7px !important; }
+  header .desk-menu .menu-container .menu > li:hover a::after {top: 26px;}
+  header .desk-menu .menu-container .menu-head {display: block;}
+  header .desk-menu .menu-container .menu-foot {display: block;}
+  header.small .hamburger-menu {top: 31px;}
+  header.small .hamburger-menu span {color: #4e4e4e;}
+  header.small .hamburger-menu .bar {background: #4e4e4e;}
+  header.small .hamburger-menu .bar::before, header.small .hamburger-menu .bar::after {background: #4e4e4e;}
+  header.small .hamburger-menu .bar.animate {background: rgba(255, 255, 255, 0);}
+  header .call{padding-right: 75px;}
+} */
+/* @media (max-width: 767px) {
+  .hidden-md{display: block; max-height:400px;}
+  .hidden-sm {display: none;}
+  .fltl, .fltr{float: none;}
+	p.sub-title{margin: 20px 0 30px;}
+  header .desk-menu .menu-container .menu li a {padding: 12px;}
+  header .desk-menu .menu-container .menu li.back a {padding: 8px 12px 8px 35px !important;}
+  header .desk-menu .menu-container .menu li.back a::before {top: 17px !important;}
+  header .desk-menu .menu-container .menu li.back a::after {top: 21px !important;}
+  header .desk-menu .menu-container .menu > li.menu-item-has-children a {padding: 8px 12px;}
+  header .desk-menu .menu-container .menu > li.menu-item-has-children a::before {top: 18px;}
+  header .desk-menu .menu-container .menu > li.menu-item-has-children a::after {top: 22px;}
+  header .desk-menu .menu-container .menu > li.menu-item-has-children .sub-menu li > a {padding: 8px 12px;}
+  header .desk-menu .menu-container .menu > li.menu-item-has-children .sub-menu li.menu-item-has-children > a::before {top: 18px;}
+  header .desk-menu .menu-container .menu > li.menu-item-has-children .sub-menu li.menu-item-has-children > a::after {top: 22px;}
+  .top-header a{margin-left: 9px;}
+  .country .dropdown img{width: auto;}
+  .sub-title{font-size: 13px;}
+	.news input{min-width: auto; width: 50%;}
+
+@media (max-height: 550px) {
+  header .desk-menu .menu-container .menu-foot hr, header .desk-menu .menu-container .menu-foot address {display: none;}
+  header .call{margin-top: 22px;}
+    header .call a{padding: 9px 14px;}
+
+.about-indi img{float: none;}
+
+}
+
+
+@media (max-width: 481px) {
+  header .desk-menu .logo-adn a {width: 100px; height: 30px;}
+  header .hamburger-menu .bar, header .hamburger-menu .bar::after, header .hamburger-menu .bar::before {width: 30px; height: 3px;}
+  header .hamburger-menu .bar::before {bottom: 9px;}
+  header .hamburger-menu .bar::after {top: 9px;}
+  header.small .desk-menu .logo-adn a {width: 100px; height: 30px;}
+  .top-header a{margin-left: 9px; font-size: 9px;}
+  #slideout{display: none;}
+
+} */

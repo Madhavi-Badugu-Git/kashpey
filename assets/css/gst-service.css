@@ -1,0 +1,562 @@
+
+    /* ===== GST CONTENT SECTION STYLES ===== */
+   
+    .gst-content-wrapper {
+        background: linear-gradient(135deg, #fff9f0 0%, #fff 60%, #f0f7ff 100%);
+        padding: 60px 0 50px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    /* Decorative background blobs */
+    .gst-content-wrapper::before {
+        content: '';
+        position: absolute;
+        top: -80px; right: -80px;
+        width: 300px; height: 300px;
+        background: radial-gradient(circle, rgba(255,193,7,0.12) 0%, transparent 70%);
+        border-radius: 50%;
+        pointer-events: none;
+    }
+    .gst-content-wrapper::after {
+        content: '';
+        position: absolute;
+        bottom: -60px; left: -60px;
+        width: 250px; height: 250px;
+        background: radial-gradient(circle, rgba(33,150,243,0.10) 0%, transparent 70%);
+        border-radius: 50%;
+        pointer-events: none;
+    }
+
+    .gst-container {
+        max-width: 1180px;
+        margin: 0 auto;
+        padding: 0 20px;
+        position: relative;
+        z-index: 1;
+    }
+
+    /* ===== SECTION HEADING ===== */
+    .gst-main-heading {
+        font-family: 'Poppins', sans-serif;
+        font-size: 36px;
+        font-weight: 800;
+        color: #1a1a2e;
+        margin-bottom: 10px;
+        line-height: 1.2;
+        text-align: center;
+    }
+    .gst-main-heading .blue-txt { color: #2196F3; }
+    .gst-main-heading .orange-txt { color: #FF5722; }
+
+    .gst-subtitle {
+        text-align: center;
+        font-size: 16px;
+        color: #666;
+        margin-bottom: 45px;
+        font-weight: 500;
+    }
+
+    /* ===== INTRO HIGHLIGHT BOX ===== */
+    ./* ===== INTRO HIGHLIGHT BOX — NEW STYLE ===== */
+
+    .gst-intro-box {
+        display: flex;
+        align-items: flex-start;
+        gap: 0;
+        margin-bottom: 48px;
+        border-radius: 16px;
+        overflow: hidden;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.10);
+        border: 1px solid #e8e8e8;
+        background: #fff;
+        position: relative;
+        animation: fadeSlideUp 0.6s ease both;
+    }
+
+/* LEFT colored sidebar strip with icon */
+.gst-intro-icon {
+    flex-shrink: 0;
+    width: 110px;
+    background: linear-gradient(180deg, #FFC107 0%, #FF5722 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 46px;
+    padding: 36px 16px;
+    position: relative;
+    gap: 12px;
+}
+
+/* Decorative dots on the sidebar */
+.gst-intro-icon::before {
+    content: '';
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 6px;
+    height: 6px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    box-shadow:
+        0 14px 0 rgba(255,255,255,0.4),
+        0 28px 0 rgba(255,255,255,0.3);
+}
+
+/* Vertical label text on sidebar */
+.gst-intro-icon::after {
+    content: 'GST INFO';
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 8px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: rgba(255, 255, 255, 0.85);
+    font-family: 'Poppins', sans-serif;
+    white-space: nowrap;
+}
+
+/* RIGHT content area */
+.gst-intro-text {
+    flex: 1;
+    padding: 32px 36px;
+    font-size: 15.5px;
+    color: #444;
+    line-height: 1.8;
+    font-family: 'Nunito', sans-serif;
+    position: relative;
+}
+
+/* Top accent line inside content */
+.gst-intro-text::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 36px;
+    right: 36px;
+    height: 3px;
+    background: linear-gradient(to right, #FFC107, #FF5722, transparent);
+    border-radius: 0 0 4px 4px;
+}
+
+/* Title strong tag */
+.gst-intro-text strong:first-child {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: #1a1a2e;
+    margin-bottom: 12px;
+    padding-bottom: 10px;
+    border-bottom: 1.5px dashed #f0e0c8;
+    position: relative;
+}
+
+/* Inline strong tags (Kanyakumari, J&K) */
+.gst-intro-text strong {
+    color: #E64A19;
+    font-weight: 700;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+    .gst-intro-box {
+        flex-direction: column;
+    }
+    .gst-intro-icon {
+        width: 100%;
+        flex-direction: row;
+        padding: 18px 24px;
+        font-size: 36px;
+        justify-content: flex-start;
+        gap: 14px;
+    }
+    .gst-intro-icon::before {
+        display: none;
+    }
+    .gst-intro-icon::after {
+        position: static;
+        transform: none;
+        font-size: 10px;
+    }
+    .gst-intro-text {
+        padding: 24px 20px;
+    }
+    .gst-intro-text::before {
+        left: 20px;
+        right: 20px;
+    }
+}
+
+@keyframes fadeSlideUp {
+    from { opacity: 0; transform: translateY(24px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+    /* ===== 2-COLUMN LAYOUT ===== */
+    .gst-two-col {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 32px;
+        margin-bottom: 48px;
+    }
+
+    /* ===== CARD BASE ===== */
+    .gst-card {
+        background: #fff;
+        border-radius: 18px;
+        padding: 32px 28px;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.07);
+        border: 1.5px solid #f0f0f0;
+        transition: transform 0.25s ease, box-shadow 0.25s ease;
+        animation: fadeSlideUp 0.6s ease both;
+    }
+    .gst-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 12px 36px rgba(0,0,0,0.11);
+    }
+    .gst-card:nth-child(1) { animation-delay: 0.1s; }
+    .gst-card:nth-child(2) { animation-delay: 0.2s; }
+
+    .gst-card-title {
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        color: #1a1a2e;
+        margin-bottom: 16px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .gst-card-title .card-icon {
+        width: 40px; height: 40px;
+        border-radius: 10px;
+        display: flex; align-items: center; justify-content: center;
+        font-size: 20px;
+        flex-shrink: 0;
+    }
+    .icon-orange { background: linear-gradient(135deg, #FFC107, #FF5722); }
+    .icon-blue   { background: linear-gradient(135deg, #42A5F5, #1565C0); }
+
+    .gst-card p {
+        font-size: 15px;
+        color: #555;
+        line-height: 1.75;
+        margin-bottom: 10px;
+    }
+    .gst-card p:last-child { margin-bottom: 0; }
+
+    /* ===== BENEFITS LIST ===== */
+    .gst-benefits-list {
+        list-style: none;
+        margin-top: 12px;
+    }
+    .gst-benefits-list li {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 9px 0;
+        font-size: 15px;
+        color: #444;
+        font-weight: 600;
+        border-bottom: 1px dashed #f0f0f0;
+    }
+    .gst-benefits-list li:last-child { border-bottom: none; }
+    .gst-benefits-list li .check {
+        width: 26px; height: 26px;
+        background: linear-gradient(135deg, #4CAF50, #2E7D32);
+        border-radius: 50%;
+        display: flex; align-items: center; justify-content: center;
+        color: #fff;
+        font-size: 13px;
+        flex-shrink: 0;
+    }
+
+    /* ===== TYPES SECTION (3 cards) ===== */
+    .gst-types-heading {
+        font-family: 'Poppins', sans-serif;
+        font-size: 26px;
+        font-weight: 800;
+        color: #1a1a2e;
+        margin-bottom: 8px;
+        text-align: center;
+    }
+    .gst-types-sub {
+        text-align: center;
+        font-size: 15px;
+        color: #777;
+        margin-bottom: 32px;
+    }
+
+    .gst-types-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+        margin-bottom: 16px;
+    }
+
+    .gst-type-card {
+        border-radius: 20px;
+        padding: 32px 24px;
+        color: #fff;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 8px 28px rgba(0,0,0,0.13);
+        animation: fadeSlideUp 0.6s ease both;
+        transition: transform 0.25s ease;
+    }
+    .gst-type-card:hover { transform: translateY(-5px); }
+
+    .gst-type-card::before {
+        content: '';
+        position: absolute;
+        top: -30px; right: -30px;
+        width: 120px; height: 120px;
+        border-radius: 50%;
+        background: rgba(255,255,255,0.12);
+    }
+    .gst-type-card::after {
+        content: '';
+        position: absolute;
+        bottom: -40px; left: -20px;
+        width: 150px; height: 150px;
+        border-radius: 50%;
+        background: rgba(255,255,255,0.08);
+    }
+
+    .card-cgst { background: linear-gradient(135deg, #1565C0, #42A5F5); animation-delay: 0.1s; }
+    .card-sgst { background: linear-gradient(135deg, #E65100, #FFA726); animation-delay: 0.2s; }
+    .card-igst { background: linear-gradient(135deg, #1B5E20, #66BB6A); animation-delay: 0.3s; }
+
+    .gst-type-badge {
+        display: inline-block;
+        background: rgba(255,255,255,0.25);
+        border: 1.5px solid rgba(255,255,255,0.4);
+        border-radius: 30px;
+        padding: 4px 16px;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        margin-bottom: 16px;
+        backdrop-filter: blur(4px);
+    }
+
+    .gst-type-name {
+        font-family: 'Poppins', sans-serif;
+        font-size: 22px;
+        font-weight: 800;
+        margin-bottom: 12px;
+        line-height: 1.2;
+        position: relative;
+        z-index: 1;
+    }
+    .gst-type-name span {
+        display: block;
+        font-size: 13px;
+        font-weight: 500;
+        opacity: 0.85;
+        margin-top: 2px;
+        letter-spacing: 0.3px;
+    }
+
+    .gst-type-desc {
+        font-size: 14px;
+        line-height: 1.7;
+        opacity: 0.92;
+        position: relative;
+        z-index: 1;
+        margin-bottom: 16px;
+    }
+
+    .gst-type-example {
+        background: rgba(255,255,255,0.18);
+        border-left: 3px solid rgba(255,255,255,0.6);
+        border-radius: 0 8px 8px 0;
+        padding: 10px 14px;
+        font-size: 13px;
+        font-style: italic;
+        line-height: 1.6;
+        position: relative;
+        z-index: 1;
+        backdrop-filter: blur(4px);
+    }
+    .gst-type-example strong {
+        font-style: normal;
+        font-weight: 700;
+        display: block;
+        margin-bottom: 3px;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 0.8px;
+        opacity: 0.8;
+    }
+
+    /* ===== DIVIDER ===== */
+    .gst-divider {
+        border: none;
+        height: 2px;
+        background: linear-gradient(to right, transparent, #FFC107, #FF5722, transparent);
+        margin: 48px 0;
+        border-radius: 2px;
+    }
+
+    /* ===== ANIMATION ===== */
+    @keyframes fadeSlideUp {
+        from { opacity: 0; transform: translateY(24px); }
+        to   { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 900px) {
+        .gst-two-col { grid-template-columns: 1fr; }
+        .gst-types-grid { grid-template-columns: 1fr; }
+        .gst-intro-box { flex-direction: column; text-align: center; }
+        .gst-main-heading { font-size: 26px; }
+    }
+    @media (max-width: 600px) {
+        .gst-content-wrapper { padding: 36px 0 30px; }
+        .gst-card { padding: 22px 18px; }
+        .gst-type-card { padding: 24px 18px; }
+    }
+
+ 
+
+
+  /* HEADING */
+  .gst-main-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1a1a2e;
+    margin-bottom: 8px;
+    text-align: center;
+    line-height: 1.2;
+  }
+  .orange-txt { color: #FF5722; }
+  .blue-txt   { color: #2196F3; }
+
+  .gst-subtitle {
+    text-align: center;
+    font-size: 15px;
+    color: #777;
+    margin-bottom: 36px;
+    font-weight: 500;
+  }
+
+  /* ===== INTRO BOX ===== */
+  .gst-intro-box {
+    display: flex;
+    align-items: flex-start;
+    gap: 0;
+    margin-bottom: 48px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.10);
+    border: 1px solid #e8e8e8;
+    background: #fff;
+    position: relative;
+    animation: fadeSlideUp 0.6s ease both;
+  }
+
+  .gst-intro-icon {
+    flex-shrink: 0;
+    width: 110px;
+    background: linear-gradient(180deg, #FFC107 0%, #FF5722 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 46px;
+    padding: 36px 16px;
+    position: relative;
+    gap: 12px;
+  }
+
+  .gst-intro-icon::before {
+    content: '';
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 6px; height: 6px;
+    background: rgba(255,255,255,0.5);
+    border-radius: 50%;
+    box-shadow: 0 14px 0 rgba(255,255,255,0.4), 0 28px 0 rgba(255,255,255,0.3);
+  }
+
+  .gst-intro-icon::after {
+    content: 'GST INFO';
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 8px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: rgba(255,255,255,0.85);
+    font-family: 'Poppins', sans-serif;
+    white-space: nowrap;
+  }
+
+  .gst-intro-text {
+    flex: 1;
+    padding: 32px 36px;
+    font-size: 15.5px;
+    color: #444;
+    line-height: 1.8;
+    font-family: 'Nunito', sans-serif;
+    position: relative;
+  }
+
+  .gst-intro-text::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 36px; right: 36px;
+    height: 3px;
+    background: linear-gradient(to right, #FFC107, #FF5722, transparent);
+    border-radius: 0 0 4px 4px;
+  }
+
+  .gst-intro-text strong:first-child {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: #1a1a2e;
+    margin-bottom: 12px;
+    padding-bottom: 10px;
+    border-bottom: 1.5px dashed #f0e0c8;
+    position: relative;
+  }
+
+  .gst-intro-text strong {
+    color: #E64A19;
+    font-weight: 700;
+  }
+
+  /* MOBILE */
+  @media (max-width: 700px) {
+    .gst-intro-box { flex-direction: column; }
+    .gst-intro-icon {
+      width: 100%;
+      flex-direction: row;
+      padding: 18px 24px;
+      font-size: 36px;
+      justify-content: flex-start;
+      gap: 14px;
+    }
+    .gst-intro-icon::before { display: none; }
+    .gst-intro-icon::after { position: static; transform: none; font-size: 10px; }
+    .gst-intro-text { padding: 24px 20px; }
+    .gst-intro-text::before { left: 20px; right: 20px; }
+    .gst-main-heading { font-size: 26px; }
+  }
+
+  @keyframes fadeSlideUp {
+    from { opacity: 0; transform: translateY(24px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }

@@ -1,0 +1,53 @@
+
+        #home { zoom: 90% !important; }
+        .grecaptcha-badge { z-index: 9999 !important; }
+        img.wp-smiley, img.emoji { display: inline !important; border: none !important; box-shadow: none !important; height: 1em !important; width: 1em !important; margin: 0 .07em !important; vertical-align: -0.1em !important; background: none !important; padding: 0 !important; }
+        footer p a:link, footer p a:visited, footer p a:active { color: #c3c3c3; }
+        footer p.ttl { color: #fff; padding-bottom: 8px; font-weight: 700; }
+        .border_bottom1 { border-bottom: 2px solid #f26b3d; margin-bottom: 5px; }
+        .imageBox { position: relative; float: left; padding-left: 30px; }
+        .imageBox .hoverImg { position: absolute; left: 0; top: 0; display: none; padding-left: 30px; }
+        .imageBox:hover .hoverImg { display: block; }
+        td, th { border: 1px solid black; text-align: center; width: 100%; }
+        @media (min-width: 320px) and (max-width: 480px) { .card-row .card-d { width: 20% !important; background-color: #fff; margin-top: 3px; height: 64px; padding: 1px; } }
+        .dropbtn { background-color: #04AA6D; color: white; padding: 16px; font-size: 16px; border: none; }
+        .dropdown { position: relative; display: inline-block; }
+        .dropdown-content { display: none; position: absolute; background-color: white; min-width: 145px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1000; margin-top: 3px; border-radius: 5px; margin-left: -33px; }
+        .dropdown-content a { color: black !important; padding: 12px 16px !important; text-decoration: none; display: block; border-radius: 5px; }
+        .dropdown-content a:hover { background-color: #f1bd17; color: white !important; }
+        .dropdown:hover .dropdown-content { display: block; }
+        .dropdown:hover .dropbtn { background-color: #3e8e41; }
+        .dropdown-content_2 { display: none; position: absolute; float: revert; background-color: white; min-width: 1024px; text-align: left; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1000; margin-top: 3px; border-radius: 5px; margin-left: -33px; }
+        .dropdown-content_2 a { color: black !important; padding: 8px 10px !important; text-decoration: none; display: block; border-radius: 5px; }
+        .column { float: left; width: 50%; padding: 10px; height: 300px; }
+        .row:after { content: ""; display: table; clear: both; }
+        .dropdown-content_2 a:hover { background-color: #f26b3d; color: white !important; }
+        .dropdown:hover .dropdown-content_2 { display: block; }
+        @media screen and (max-width: 740px) { .dropdown-content_2, .dropdown-content { display: none !important; } }
+        #more { display: none; }
+        #clients .clients-wrap ul li img { vertical-align: middle; max-width: 100%; max-height: 100%; transition: 0 linear left; }
+        .cont-sect2 { width: 100%; display: inline-block; padding: 29px 0; height: auto; }
+        .filterDiv .imgsec, .filterDiv .imgsec img { background: #ddd; height: auto; width: 100%; position: relative; }
+        .only-text-layout .container { max-width: 1160px; }
+        .navbarr { overflow: hidden; background-color: #333; font-family: Arial, Helvetica, sans-serif; }
+        .navbarr a { float: left; font-size: 16px; color: white; text-align: center; padding: 14px 16px; text-decoration: none; }
+        .dropdownn { float: left; overflow: hidden; }
+        .dropdownn .dropbtnn { font-size: 16px; border: none; outline: none; color: white; padding: 14px 16px; background-color: inherit; font: inherit; margin: 0; }
+        .navbarr a:hover, .dropdownn:hover .dropbtnn { background-color: red; }
+        .dropdown-contentt { display: none; position: absolute; background-color: #f9f9f9; width: 100%; left: 0; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1; }
+        .dropdown-contentt .headerr { background: red; padding: 16px; color: white; }
+        .dropdownn:hover .dropdown-contentt { display: block; }
+        .columnnn { float: left; width: 22%; padding: 10px; border-right: #ffc300 1px solid; }
+        .columnnn a { float: none; color: black; padding: 16px; text-decoration: none; display: block; text-align: left; }
+        .columnnn a:hover { background-color: #f1bd17; color: black; }
+        .rowww:after { content: ""; display: table; clear: both; }
+        @media screen and (max-width: 600px) { .columnnn { width: 100%; height: auto; } }
+        .call_button_1 { float: left; width: 8%; position: fixed; bottom: -1px; z-index: 100; cursor: pointer; border-radius: 4px; display: none; }
+        @media screen and (max-width: 800px) { .call_button_1 { width: 20%; display: block; z-index: 109; } }
+        .cont-sect { width: 100%; display: inline-block; padding: 29px 0; height: auto; }
+        .column_three { float: left; width: 30%; padding: 10px; }
+        .column_three_1 { float: left; width: 70%; padding: 15px; }
+        .column_three_2 { float: left; width: 15%; padding: 10px; }
+        .row_three_1:after, .row_three:after { content: ""; display: table; clear: both; }
+        @media screen and (max-width: 600px) { .column_three { width: 100%; } }
+        header .desk-menu .menu-container .menu>li a { position: relative; font-size: 15px; padding: 0 3px; display: block; color: #fff; font-weight: 400; }
